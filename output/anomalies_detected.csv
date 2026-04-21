@@ -1,0 +1,4 @@
+Transaction_ID,Customer_ID,State,Age,Shop_Category,Sales,z_score,is_anomaly
+90,8678,AP,70,Clothes,669,3.1068664914334843,True
+91,8690,AP,72,Electronics,689,3.2497140853719366,True
+92,8702,DP,30,Electronics,709,3.392561679310389,True
