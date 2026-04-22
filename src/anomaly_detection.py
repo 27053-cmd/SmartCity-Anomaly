@@ -14,13 +14,13 @@ df = None
 for enc in encodings_to_try:
     try:
         df = pd.read_csv(data_path, encoding=enc)
-        print(f"✅ Loaded file successfully with encoding: {enc}")
+        print(f"Loaded file successfully with encoding: {enc}")
         break
     except Exception as e:
         print(f"Failed with encoding {enc}: {e}")
 
 if df is None:
-    raise ValueError("❌ Could not read CSV with any tested encoding.")
+    raise ValueError("Could not read CSV with any tested encoding.")
 
 print("Columns detected:", df.columns)
 
